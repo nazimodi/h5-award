@@ -1,0 +1,422 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+    background: #ffffff;
+    color: #FFF;
+}
+
+body {
+    font-family: "微软雅黑";
+    font-size: 12px;
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*==========================================loading*/
+
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background: url(img/wsload.gif) no-repeat center center #FFF;
+    background-size: 10%;
+}
+
+/*==============================================================页面样式*/
+.page {
+    position: relative;
+    width: 100%;
+    height: 1138px;
+}
+
+.ws20160229 {
+    background: no-repeat top center;
+    background-size: cover;
+}
+
+.ws20160229 .top {
+    display: block;
+    width: 576px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.ws20160229 .holder {
+    width: 452px;
+    height: 788px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.ws20160229 .holder .start {
+    position: absolute;
+    top: 460px;
+    left: 156px;
+}
+
+.ws20160229 .holder .start .star {
+    -webkit-transform-origin: 71px 156px;
+    -moz-transform-origin: 71px 156px;
+    -o-transform-origin: 71px 156px;
+    transform-origin: 71px 156px;
+    -webkit-transform: rotate(0deg);
+}
+
+.ws20160229 .holder .start .zi {
+    position: absolute;
+    top: 117px;
+    left: 41px;
+}
+
+.ws20160229 .pack {
+    width: 416px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.ws20160229 .pack p {
+    font-size: 30px;
+    color: #FFF;
+    line-height: 2em;
+}
+
+.ws20160229 .pack input {
+    display: block;
+    line-height: 2em;
+    color: #666;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FFF;
+}
+
+.ws20160229 #submit {
+    display: block;
+    width: 416px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #c8161d;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.ws20160229 .logo {
+    display: block;
+    width: 205px;
+    height: 49px;
+    margin: 0 auto;
+    margin-top: 550px;
+}
+
+.ws20160229 .xs_txt {
+    position: absolute;
+    top: 115px;
+    width: 100%;
+
+}
+
+.ws20160229 .xs_txt img {
+    display: block;
+    margin: 0 auto;
+}
+
+#banner {
+    background: #666666;
+    height: 54px;
+}
+#banner a {
+    color: #ffffff;
+}
+#banner ul {
+    padding-left: 30px;
+}
+#banner ul li {
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+}
+#banner .banner-li-left {
+    border: #eddede solid 1px;
+    border-radius: 23px;
+}
+
+/*==============================================================浮层内容*/
+#tip {
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#tip .pack {
+    width: 60%;
+    min-height: 135px;
+    margin: 0 auto;
+    background: #FFF;
+    border-radius: 10px;
+    margin-top: 60%;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 60px;
+}
+
+#tip .pack h1 {
+    background: #ff8901;
+    font-size: 30px;
+    padding: 10px 0 10px 10px;
+    text-align: center;
+}
+
+#tip .pack p {
+    font-size: 24px;
+    color: #666;
+    padding: 20px;
+    text-align: left;
+}
+
+#tip .pack a {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background: #c9151e;
+    font-size: 26px;
+    color: #FFF;
+    line-height: 2em;
+    text-align: center;
+}
+
+/*===============================================微信提醒*/
+
+#weixinTip {
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: none;
+}
+
+.ws20160229 .xa_holder {
+    width: 452px;
+    height: 448px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 396px;
+}
+
+.ws20160229 .holder .start {
+    position: absolute;
+    top: 460px;
+    left: 156px;
+}
+
+.ws20160229 .holder .start .star {
+    -webkit-transform-origin: 71px 156px;
+    -moz-transform-origin: 71px 156px;
+    -o-transform-origin: 71px 156px;
+    transform-origin: 71px 156px;
+    -webkit-transform: rotate(0deg);
+}
+
+.ws20160229 .holder .start .zi {
+    position: absolute;
+    top: 117px;
+    left: 41px;
+}
+
+.xa_choujiang #submit {
+    display: block;
+    width: 416px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 10px;
+    background: url(../img/xian/xa_icon03.png) no-repeat center center;
+}
+
+.xa_choujiang .xa_down {
+    color: #735d00;
+    display: block;
+    font-size: 22px;
+    text-decoration: underline;
+    margin-top: 10px;
+
+}
+
+.xa_choujiang .logo {
+    display: block;
+    width: 556px;
+    height: 34px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+/*==================泰达基金*/
+
+.td_choujiang {
+    background: #c8152d;
+
+}
+
+.td_choujiang .td_header {
+    padding-top: 47px;
+}
+
+.td_choujiang .td_header img {
+    display: block;
+    margin: 0 auto;
+}
+
+.td_choujiang .td_holder {
+    position: relative;
+    background: url(td_icon04.png) no-repeat center top;
+    width: 640px;
+    height: 877px;
+    box-sizing: border-box;
+}
+
+.td_choujiang .td_holder .td_xiongmao {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    width: 295px;
+    height: 169px;
+    margin-left: -147px;
+    -webkit-animation: td_xiongmao 1s ease-in infinite alternate;
+    animation: td_xiongmao 1s ease-in infinite alternate;
+}
+
+@keyframes td_xiongmao {
+    0% {
+        transform: rotate(-15deg);
+
+    }
+    /*50%
+    {
+        transform: rotate(0deg);
+
+    }*/
+    100% {
+        transform: rotate(15deg);
+    }
+}
+
+@-webkit-keyframes td_xiongmao {
+    0% {
+        transform: rotate(-15deg);
+
+    }
+    /*50%
+    {
+        transform: rotate(0deg);
+
+    }*/
+    100% {
+        transform: rotate(15deg);
+    }
+}
+
+.td_choujiang .td_holder .td_zhuanpan {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    width: 452px;
+    height: 448px;
+    margin-left: -226px;
+}
+
+.td_choujiang .td_holder .start {
+    position: absolute;
+    top: 192px;
+    left: 250px;
+}
+
+.td_choujiang .td_holder .pack {
+    margin-top: 535px;
+}
+
+.td_choujiang .td_holder a {
+    display: block;
+}
+
+.td_choujiang .td_holder #submit {
+    background: url(img/td_icon05.png) no-repeat center center;
+    color: #c9152d;
+    font-weight: 700;
+}
+
+.td_choujiang .td_holder .xa_down {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.td_choujiang .td_holder .logo {
+    width: 250px;
+    height: 250px;
+}
+
+.td_choujiang .td_holder .start .zi {
+    -webkit-animation: td_zi 0.5s ease-in infinite alternate;
+    animation: td_zi 0.5s ease-in infinite alternate;
+}
+
+@keyframes td_zi {
+    0% {
+        opacity: 0.2;
+
+    }
+    /*50%
+    {
+        transform: rotate(0deg);
+
+    }*/
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes td_zi {
+    0% {
+        opacity: 0.2;
+
+    }
+    /*50%
+    {
+        transform: rotate(0deg);
+
+    }*/
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
